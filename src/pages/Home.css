@@ -1,0 +1,195 @@
+
+
+
+.body{
+  display: flex;
+  /* background-image: url(../assets/index.png); */
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 100vh;
+}
+
+.body img{
+  display: flex;
+width: 100%;
+height: 100%;
+z-index: 1;
+object-fit:cover;
+  
+}
+
+
+
+.chatgpt{
+  z-index: 999;
+  width: 80%;
+  background-color: #828282;
+}
+
+
+
+/* .ant-modal-body{
+  height: 3600px;
+  overflow-y: scroll;
+}
+
+
+.iframe-block{
+  width: 1920px;
+  height: 1800px;
+}
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.header{
+  display: flex;
+  width: 1920px;
+  height: 700px;
+  background-image: url(../assets/background-header.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  
+}
+
+.nav{
+  display: flex;
+}
+
+.nav-item{
+  width: 800px;
+}
+
+.news-wrapper{
+  display: flex;
+  
+  width: 1920px;
+height: 700px;
+}
+
+.news-left{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  
+}
+.news-right{
+  width: 50%;
+}
+
+
+.news-left-title{
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 93px;
+    /* background: #555555; */
+    font-size: 18px;
+    font-family: Source Han Sans, Source Han Sans-400;
+    font-weight: 400;
+    text-align: LEFT;
+    color: #555555;
+    line-height: 21px;
+}
+
+.news-left-title span{
+margin-left: 18px;
+margin-top: 10px;
+font-size: 12px;
+font-family: Source Han Sans, Source Han Sans-400;
+font-weight: 400;
+text-align: LEFT;
+color: #bbbbbb;
+line-height: 14px;
+}
+
+.news-left-image{
+  margin-top: 43px;
+  width: 486px;
+height: 205px;
+}
+
+
+.news-left-image img{
+  
+  width: 486px;
+height: 205px;
+}
+
+.news-right-title{
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+  margin-top: 97px;
+ margin-left: 190px;
+font-size: 12px;
+font-family: Source Han Sans, Source Han Sans-400;
+font-weight: 400;
+text-align: LEFT;
+color: #828282;
+line-height: 14px;
+}
+
+.news-right-content{
+  width: 631px;
+}
+
+.content-item{
+  margin-top: 67px !important;
+}
+
+.news-right-content-item{
+  display: flex;
+  justify-content: space-between;
+  background: #f8f8f8;
+font-size: 14px;
+font-family: Source Han Sans, Source Han Sans-400;
+font-weight: 400;
+text-align: LEFT;
+color: #555555;
+line-height: 16px;
+font-size: 14px;
+font-family: Source Han Sans, Source Han Sans-400;
+font-weight: 400;
+text-align: LEFT;
+color: #555555;
+line-height: 16px;
+margin-top: 11px;
+}
